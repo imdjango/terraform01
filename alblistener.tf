@@ -4,7 +4,7 @@ port = "80"
 protocol = "HTTP"
 
 default_action {
-target_group_arn ="${aws_alb_target_group.frontend14.arn}"
+target_group_arn ="${aws_alb_target_group.albtg14.arn}"
 type = "forward"
 }
 }

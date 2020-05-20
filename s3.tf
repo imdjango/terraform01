@@ -1,5 +1,5 @@
-resource "aws_s3_bucket" "v14" {
-  bucket = "v14"
+resource "aws_s3_bucket" "imdjango14" {
+  bucket = "imdjango14"
   policy = <<EOF
 {
 "Version": "2012-10-17",
@@ -10,7 +10,7 @@ resource "aws_s3_bucket" "v14" {
 "AWS": "arn:aws:iam::${var.alb_account_id}:root"
 },
 "Action": "s3:PutObject",
-"Resource": "arn:aws:s3:::v14/*"
+"Resource": "arn:aws:s3:::imdjango14/*"
 }
 ]
 }

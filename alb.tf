@@ -8,7 +8,7 @@ resource "aws_alb" "alb14" {
   ]
 
   access_logs {
-    bucket  = "${aws_s3_bucket.v14.id}"
+    bucket  = "${aws_s3_bucket.imdjango14.id}"
     prefix  = "frontend-alb"
     enabled = true
   }
