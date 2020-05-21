@@ -6,7 +6,7 @@ gateway_id = "${aws_internet_gateway.gateway14.id}"
 }
 route {
 cidr_block = "114.0.0.0/16"
-gateway_id = "pcx-0e02c11494378a38c"
+gateway_id = "${aws_vpc_peering_connection.peering14.id}"
 }
 tags = {
 Name = "rt14"
