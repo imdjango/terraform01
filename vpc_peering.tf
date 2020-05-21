@@ -8,3 +8,5 @@ resource "aws_vpc_peering_connection" "peering14" {
     Name = "vpc14 peering region between California and Paris"
   }
 }
+
+
