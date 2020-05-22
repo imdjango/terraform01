@@ -1,5 +1,5 @@
+# ACCESS KEY 
 *.pem
-<<<<<<< HEAD
 
 # Created by https://www.gitignore.io/api/linux,macos,windows,terraform
 # Edit at https://www.gitignore.io/?templates=linux,macos,windows,terraform
@@ -104,4 +104,3 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/linux,macos,windows,terraform
-=======
